@@ -1,0 +1,172 @@
+{
+  "students": [
+    {
+      "id": "stu_me49zr2e_cyzzdcrj",
+      "name": "animesh",
+      "rollNo": "24005047",
+      "className": "csbs",
+      "passwordHash": "06c2949274f070ddc5c76e7e2d046f7b7eac214628fb22480751ebab39386578",
+      "salt": "d3ea6b6125a4a3a9940d8d56efe568d9",
+      "createdAt": "2025-08-09T13:13:32.102Z"
+    },
+    {
+      "id": "stu_me4a1eqm_aprw6d6l",
+      "name": "ayush",
+      "rollNo": "24005017",
+      "className": "csbs",
+      "passwordHash": "f3a873d92151f37d3d0ec207e91713e1dcc42e4999ec8e9d22b5164228d77781",
+      "salt": "8b80f278b1861798d76b2dea508617ce",
+      "createdAt": "2025-08-09T13:14:49.439Z"
+    },
+    {
+      "id": "stu_me6kg29b_9w7ljysa",
+      "name": "rachit",
+      "rollNo": "24005060",
+      "className": "csbs",
+      "passwordHash": "49c610a2ac9855bd12d03b4c959324f466da2db9ed2b266b0e1b33e732e26488",
+      "salt": "6df6d0e1afd56747a3d12f7aebe574d5",
+      "createdAt": "2025-08-11T03:41:41.619Z"
+    },
+    {
+      "id": "stu_me8ewupx_fup44uuk",
+      "name": "vedanti",
+      "rollNo": "24005006",
+      "className": "csbs",
+      "passwordHash": "9b0d461b70f9efce68dbb76bd6f9b2e71b63293cbffc442b1a1aa9865fa85771",
+      "salt": "31fe7197c6081eee8c236d49f8163a5f",
+      "createdAt": "2025-08-12T10:42:19.667Z"
+    }
+  ],
+  "admins": [
+    {
+      "id": "adm_me4a2wxf_81o59o2o",
+      "username": "admin",
+      "passwordHash": "3a276b687e9140061dffd5999138b6c4574eeb319e1073a4878c182d11944b48",
+      "salt": "089f55c058beb385481a2adea708c889",
+      "createdAt": "2025-08-09T13:15:59.668Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "3bc4b596c36719a8fe1ee655f3823ac13bc9a72d8f388424",
+      "userId": "stu_me49zr2e_cyzzdcrj",
+      "role": "student",
+      "createdAt": "2025-08-09T13:13:47.531Z",
+      "expiresAt": "2025-08-16T13:13:47.530Z"
+    },
+    {
+      "token": "03d84ef3cc0be920bb2ffd41656a74a8c5d2d062cd970cf5",
+      "userId": "stu_me49zr2e_cyzzdcrj",
+      "role": "student",
+      "createdAt": "2025-08-09T13:18:07.396Z",
+      "expiresAt": "2025-08-16T13:18:07.395Z"
+    },
+    {
+      "token": "767c297856b1390fe20965cb1ab6d49af71afca73c3c60d7",
+      "userId": "stu_me49zr2e_cyzzdcrj",
+      "role": "student",
+      "createdAt": "2025-08-09T13:31:31.487Z",
+      "expiresAt": "2025-08-16T13:31:31.486Z"
+    },
+    {
+      "token": "dd922d5c84a189df60af532e641a00f1306fee197587f94f",
+      "userId": "stu_me49zr2e_cyzzdcrj",
+      "role": "student",
+      "createdAt": "2025-08-09T13:31:32.244Z",
+      "expiresAt": "2025-08-16T13:31:32.243Z"
+    },
+    {
+      "token": "051c1e745e9f75413d7981700256be1cd1f76e1b43199090",
+      "userId": "stu_me49zr2e_cyzzdcrj",
+      "role": "student",
+      "createdAt": "2025-08-09T13:39:11.887Z",
+      "expiresAt": "2025-08-16T13:39:11.886Z"
+    },
+    {
+      "token": "66451659e7a6f29461dd7a6d21ea8fb04e22d6f8e5787542",
+      "userId": null,
+      "role": "admin",
+      "createdAt": "2025-08-11T03:43:22.487Z",
+      "expiresAt": "2025-08-18T03:43:22.484Z"
+    },
+    {
+      "token": "4d847468cf3575ae335bd4cc11ac4490f54fabb7d5439213",
+      "userId": "stu_me49zr2e_cyzzdcrj",
+      "role": "student",
+      "createdAt": "2025-08-12T10:41:48.529Z",
+      "expiresAt": "2025-08-19T10:41:48.527Z"
+    },
+    {
+      "token": "baaf4cfb54909de572f7f59f9a824832ae6e0f9660bd03db",
+      "userId": "stu_me8ewupx_fup44uuk",
+      "role": "student",
+      "createdAt": "2025-08-12T10:42:35.459Z",
+      "expiresAt": "2025-08-19T10:42:35.456Z"
+    },
+    {
+      "token": "21ae7993c87c5ee5bda29744c9582d97805af4c3c059e688",
+      "userId": null,
+      "role": "admin",
+      "createdAt": "2025-08-12T10:43:18.546Z",
+      "expiresAt": "2025-08-19T10:43:18.544Z"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "sub_me4a23lr_81w9fwds",
+      "className": "csbs",
+      "giverUserId": "stu_me4a1eqm_aprw6d6l",
+      "giverRollNo": "24005017",
+      "entries": [
+        {
+          "recipientRollNo": "24005047",
+          "marks": 100
+        }
+      ],
+      "createdAt": "2025-08-09T13:15:21.664Z"
+    },
+    {
+      "id": "sub_me4aerac_alnz5xyf",
+      "className": "csbs",
+      "giverUserId": "stu_me49zr2e_cyzzdcrj",
+      "giverRollNo": "24005047",
+      "entries": [
+        {
+          "recipientRollNo": "24005017",
+          "marks": 2
+        }
+      ],
+      "createdAt": "2025-08-09T13:25:12.231Z"
+    },
+    {
+      "id": "sub_me6kgz8d_5hizod2t",
+      "className": "csbs",
+      "giverUserId": "stu_me6kg29b_9w7ljysa",
+      "giverRollNo": "24005060",
+      "entries": [
+        {
+          "recipientRollNo": "24005017",
+          "marks": 20
+        }
+      ],
+      "createdAt": "2025-08-11T03:42:24.350Z"
+    },
+    {
+      "id": "sub_me8exqd8_6ybruz09",
+      "className": "csbs",
+      "giverUserId": "stu_me8ewupx_fup44uuk",
+      "giverRollNo": "24005006",
+      "entries": [
+        {
+          "recipientRollNo": "24005017",
+          "marks": 100
+        },
+        {
+          "recipientRollNo": "24005047",
+          "marks": 20
+        }
+      ],
+      "createdAt": "2025-08-12T10:43:00.669Z"
+    }
+  ]
+}
